@@ -1,0 +1,6 @@
+1. After step 8 has been completed, there will be 7 commits that exist in the repository history.
+2. The file .gitignore was added on January 24, 2017, 10:28 PM CST
+3. Git log lets you list the history, go through it, and search for specific changes. Git status shows you what has been going on with files, it tells you which ones are staged, unstaged, and untracked.
+4. Untracked files are files that exist in your local machine but are not in your repository. Git does not have a record of them yet.Unstaged changes are part of tracked files that exist in your working directory, but have not been recorded in the versio history yet.
+5. The difference between git checkout and git reset is that git checkout is used to switch between different branches and git reset is used to undo specific changes.
+6. You will get an error saying that there are uncommited changes and will not be able to pull your remote changes.
