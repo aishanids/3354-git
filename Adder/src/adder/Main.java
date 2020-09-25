@@ -6,8 +6,10 @@ public class Main {
         try {
             int result = addArguments(args);
             System.out.println(result);
-        } catch (Exception e) {
-            System.err.println("Please provide two integers to add");
+        } catch (NumberFormatException e) {
+            System.err.println("Invalid Argument");
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.err.println("Not enough arguments")
         }
     }
 
